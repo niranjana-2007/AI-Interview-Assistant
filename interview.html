@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Interview - Interview AI</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <nav class="navbar">
+
+        <div class="logo">
+            Interview AI
+        </div>
+
+        <div class="nav-links">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="index.html#features">
+                Features
+            </a>
+
+            <a href="index.html#how-it-works">
+                How It Works
+            </a>
+
+            <a href="index.html#about">
+                About
+            </a>
+
+        </div>
+
+    </nav>
+
+
+    <section class="interview">
+
+        <p class="section-label">
+            INTERVIEW PRACTICE
+        </p>
+
+        <h1 id="interview-title">
+            Mock Interview
+        </h1>
+
+        <p class="interview-role">
+            Role:
+            <span id="selected-role"></span>
+        </p>
+
+
+        <div class="question-card">
+
+            <p class="question-number">
+                Question 1 of 5
+            </p>
+
+
+            <div class="progress-bar">
+
+                <div
+                    class="progress-fill"
+                    id="progress-fill">
+                </div>
+
+            </div>
+
+
+            <h2 id="question">
+                Tell me about yourself.
+            </h2>
+
+
+            <p class="answer-instruction">
+                Take your time and give a clear, detailed answer.
+            </p>
+
+
+            <textarea
+                id="answer"
+                placeholder="Type your answer here..."
+            ></textarea>
+
+
+            <p id="answer-feedback"></p>
+
+
+            <p id="ai-message"></p>
+
+
+            <p id="answer-count">
+                Answered: 0 / 5
+            </p>
+
+
+            <button class="next-button">
+                Next Question
+            </button>
+
+        </div>
+
+
+        <a
+            href="practice.html"
+            class="back-practice-link">
+            ← Back to Practice
+        </a>
+
+    </section>
+
+
+    <script src="interview.js"></script>
+
+</body>
+
+</html>
